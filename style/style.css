@@ -1,0 +1,288 @@
+body {
+    background-color: white;
+    margin: 0;
+    font-family: 'lato';
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* start of header */
+
+.header-logo {
+    width: 182px;
+    margin: auto;
+    margin-top: 6px;
+}
+
+.header-nav {
+    margin: 33px;
+    margin-bottom: 25px;
+    margin-left: 70px;
+    margin-right: 60px;
+}
+
+
+.header-nav nav a {
+    margin: auto 10px;
+    padding: 10px 10px;
+    font-size: 17px;
+    text-decoration: none;
+    color: black;
+}
+
+.header-nav nav a:hover {
+    color: rgb(98, 49, 145)   ;
+    background-color: rgb(192, 241, 233);    
+}
+
+/* Title Section Start  */
+
+.title-image {
+    position: relative;
+    height: 600px;
+}
+
+.title-image img {
+    width: 100%;
+    height: 600px;
+}
+
+.filter {
+    position: absolute;
+    background-color: black;
+    opacity: 0.4;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.title-image .title-text {
+    position: absolute;
+    top: 25%;
+    color: rgb(253, 252, 252);
+    z-index: 2;
+    left: 32%;
+    text-align: center;
+}
+
+.title-image .title-text h1 {
+    font-size: 30px;   
+}
+
+.title-image .title-text P {
+    font-size: 20px;
+}
+
+.title-image .title-text a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    background-color: blueviolet;
+    border-radius: 20px;
+    font-size: 18px;
+}
+
+.title-image .title-text a:hover {
+    background-color: rgb(172, 113, 202);
+}
+
+/* start of Features */
+
+.features {
+    margin: 50px auto;
+}
+
+.features-box {
+    width: 40%;
+    margin: 30px 30px;
+}
+
+.features-box h2 {
+    color: rgb(101, 61, 138);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.features-box h3 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.features-box p {
+    margin-bottom: 30px;
+}
+
+.border {
+    border-top : 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+/* Start of Feedback */
+
+.feedback {
+    margin: 50px auto;
+    margin-bottom: 200px;
+   
+}
+
+.feedback-box1 {
+    width: 45%;
+    z-index: 1;
+}
+
+.feedback-box1 img {
+    width: 100%;
+  
+}
+
+.feedback-box2 {
+    width: 50%;
+}
+.feedback-box2 img {
+    width: 1000px;
+    margin-left: -400px;    
+}
+
+.feedback-box2 p {
+    margin: auto 60px;
+    text-align: justify;
+    margin-top: 23px;
+    font-size: 17px;
+}
+
+.feedback-box2 .special {
+    color: blueviolet ;
+}
+
+
+/* start of secure */
+
+.secure {
+    background: linear-gradient(#ddd9ee, #fff);
+    margin-bottom: 100px;
+}
+
+.secure .secure-box h1 {
+    margin-left: 450px;
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+}
+
+.secure .secure-box p {
+    margin-left: 450px;
+    color: white;
+    font-size: 18px;
+    
+} 
+
+.secure-box {
+    background-image: url('/images/trust-banner.png');
+    height: 200px;
+    width: 50%;
+    width: 1400px;
+    margin: auto;
+    border-radius: 40px;
+    background-color: #9f8ed3;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: -100px;
+}  
+
+.secure-box .secure-img {
+    width: 150px;
+    margin-left: 100px;
+    margin-top: -110px;
+}
+
+.secure-box .pci {
+    width: 80px;
+    margin-bottom: 3px;
+    margin-left: 190px;
+}
+
+.secure-box .iso {
+    width: 80px;
+    margin-left: 20px;
+    margin-bottom: 2px;
+}
+
+.secure .secure-heading {
+    width: 40%;
+    margin: auto;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.secure-heading h2 {
+    font-size: 35px;
+    color: rgb(87, 49, 121);
+}
+
+.secure-heading a {
+    text-decoration: none;
+    background-color: #07c3de;
+    font-size: 20px;
+    padding: 15px 40px;
+    margin-top: 30px;
+    border-radius: 30px;
+    color: white;
+}
+
+.fa-long-arrow-right {
+    margin-left: 10px;
+}
+
+.secure .partners img {
+    width: 100%;
+    margin-top: 90px;
+}
+
+/* start of sales */
+
+.sales {
+    margin: 80px auto;
+    margin-bottom: 200px;
+   
+}
+
+.sales-box {
+    width: 45%;
+    margin: auto;
+}
+
+.sales-box img {
+    width: 100%;
+}
+
+.sales-box h2 {
+    color: rgb(94, 21, 161);
+    font-size: 35px;
+    margin: 30px auto;
+}
+
+.sales-box h4 {
+    margin-top: 50px;
+    font-size: 25px;
+} 
+
+.sales-box h3 {
+    margin: 30px auto;
+}
+
+.bottom-line {
+    border-bottom: 1px solid black;
+}
+
+.para {
+    padding-bottom: 30px;
+}
